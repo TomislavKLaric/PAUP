@@ -31,9 +31,9 @@ namespace PAUP.Controllers
 
         public ActionResult Student()
         {
-            ViewBag.Ime = "Ime";
-            ViewBag.Prezime = "Prezime";
-            ViewBag.GodinaRodenja = "GodinaRodenja";
+            ViewBag.Ime = "Sibirski";
+            ViewBag.Prezime = "Plavac";
+            ViewBag.GodinaRodenja = "Od pocetka";
             return View(); // desni klik student, add view 
         }
     }
